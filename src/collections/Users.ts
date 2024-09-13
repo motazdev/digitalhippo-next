@@ -1,5 +1,6 @@
 import { Access, CollectionConfig } from 'payload'
 import { PrimaryActionEmailHtml } from '../components/emails/PrimaryActionEmail'
+import { User } from 'payload-types'
 
 const adminsAndUser: Access = ({ req: { user } }) => {
   if (user?.role === 'admin') return true
@@ -31,7 +32,7 @@ export const Users: CollectionConfig = {
     delete: ({ req }) => req.user?.role === 'admin',
   },
   admin: {
-    hidden: ({ user }) => user.role !== 'admin',
+    hidden: true,
     defaultColumns: ['id'],
   },
 
