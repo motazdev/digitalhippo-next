@@ -12,7 +12,7 @@ export const POST = async (req: NextRequest, res: NextResponse) => {
         password: body.password,
       },
     })
-    return { success: true }
+    NextResponse.json({ success: true })
   } catch (error) {
     return NextResponse.json({ success: false, error }, { statusText: 'UNAUTHORIZED' })
   }
