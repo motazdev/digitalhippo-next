@@ -66,6 +66,9 @@ importers:
       cross-env:
         specifier: ^7.0.3
         version: 7.0.3
+      date-fns:
+        specifier: ^3.6.0
+        version: 3.6.0
       graphql:
         specifier: ^16.8.2
         version: 16.9.0
@@ -2976,6 +2979,9 @@ packages:
 
   date-fns@3.3.1:
     resolution: {integrity: sha512-y8e109LYGgoQDveiEBD3DYXKba1jWf5BA8YU1FL5Tvm0BTdEfy54WLCwnuYWZNnzzvALy/QQ4Hov+Q9RVRv+Zw==}
+
+  date-fns@3.6.0:
+    resolution: {integrity: sha512-fRHTG8g/Gif+kSh50gaGEdToemgfj74aRX3swtiouboip5JDLAyDE9F11nHMIcvOaXeOC6D7SpNhi7uFyB7Uww==}
 
   dateformat@4.6.3:
     resolution: {integrity: sha512-2P0p0pFGzHS5EMnhdxQi7aJN+iMheud0UhG4dlE1DLAlvL8JHjJJTX/CSm4JXwV0Ka5nGk3zC5mcb5bUQUxxMA==}
@@ -8786,6 +8792,8 @@ snapshots:
 
   date-fns@3.3.1: {}
 
+  date-fns@3.6.0: {}
+
   dateformat@4.6.3: {}
 
   debounce@2.0.0: {}
@@ -10634,7 +10642,7 @@ snapshots:
     dependencies:
       '@floating-ui/react': 0.26.22(react-dom@19.0.0-rc-06d0b89e-20240801(react@19.0.0-rc-06d0b89e-20240801))(react@19.0.0-rc-06d0b89e-20240801)
       clsx: 2.1.1
-      date-fns: 3.3.1
+      date-fns: 3.6.0
       prop-types: 15.8.1
       react: 19.0.0-rc-06d0b89e-20240801
       react-dom: 19.0.0-rc-06d0b89e-20240801(react@19.0.0-rc-06d0b89e-20240801)
